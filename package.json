@@ -1,0 +1,21 @@
+{
+  "name": "mapwize-georeference",
+  "version": "1.0.0",
+  "description": "JS library to work with georeference and coordinate transformation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "build": "webpack"
+  },
+  "author": "Mapwize",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "sphericalmercator": "1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
